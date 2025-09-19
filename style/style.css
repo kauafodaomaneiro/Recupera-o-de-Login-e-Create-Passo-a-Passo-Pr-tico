@@ -38,3 +38,38 @@ body{
     margin-bottom: 10px;
     flex-direction: column;
 }
+
+.form-box form .input input{ /*ali tá ".input input, por que tá mexendo no INPUT em si, da class que tem o mesmo nome*/
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(82, 187, 82);
+    outline: none;
+}
+
+.btn{
+    height: 35px;
+    background-color: rgb(82, 187, 82);
+    border: 0;
+    border-radius: 5px;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+
+.btn:hover{ /*muda o css do botão quando o mouse estiver em cima*/
+    opacity: 0.82;
+}
+
+.submit{
+    width: 100%;
+}
+
+.links{
+    margin-bottom: 15px;
+}
